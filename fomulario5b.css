@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* HTML */
+html {
+    font-size: 25px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    color: green;
+}
+
+/* .clear {
+    clear: both;
+} */
+
+/* BODY */
+body {
+    width: 1100px;
+    background-color: #FFF;
+    margin: 15px auto;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.classUnderlay {
+    padding: 40px 43px;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 1000px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 10px;
+    z-index: 2;
+}
+
+.window {
+    z-index: 3; 
+    height: 200px;
+    width: 300px;    
+    margin: 1px;
+    float: left;
+    position: relative;
+    /* background-size: contain;  o scale the background image to fit inside the div */
+    /* background-size: cover; To scale the background image to cover the whole div */
+    background-size: 100% 100%;
+    /* background-repeat: no-repeat; */
+    /* background-color: green; */
+}
+
+.windowA {
+    top: -605px;
+    z-index: 4;
+    height: 200px;
+    width: 300px;   
+    margin: 1px;
+    position: relative;
+    float: left;
+    background-color: black;
+    color: blue;  /* Javascript kann diese Eigenschaft nicht ändern, weil habe ich 'id' festgestellt */
+    transition: opacity 1.3s;
+}
+
+.classUnderlay p {
+    display: none;
+}
+
+
+
+
